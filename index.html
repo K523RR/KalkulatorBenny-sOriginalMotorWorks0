@@ -291,41 +291,49 @@ Nic nie wybrano jeszcze.
 
 const SERVICES = [
   {title:"Naprawa silnika", price:15000, cat:"Naprawy"},
-  {title:"PeĹna naprawa", price:20000, cat:"Naprawy"},
+  {title:"Pełna naprawa", price:20000, cat:"Naprawy"},
   {title:"Mycie", price:15000, cat:"Naprawy"},
   {title:"Otwarcie zamka", price:80000, cat:"Naprawy"},
-  {title:"Kolor gĹowny", price:15000, cat:"Lakierowanie"},
+
+  {title:"Kolor główny", price:15000, cat:"Lakierowanie"},
   {title:"Kolor dodatkowy", price:15000, cat:"Lakierowanie"},
-  {title:"Kolor wnÄtrza", price:20000, cat:"Lakierowanie"},
+  {title:"Kolor wnętrza", price:20000, cat:"Lakierowanie"},
   {title:"Kolor deski", price:20000, cat:"Lakierowanie"},
-  {title:"Xenony", price:20000, cat:"ĹwiatĹa"},
-  {title:"UkĹad lewa strona (neon)", price:25000, cat:"Neony"},
-  {title:"UkĹad prawa strona (neon)", price:25000, cat:"Neony"},
-  {title:"UkĹad tyĹ (neon)", price:25000, cat:"Neony"},
-  {title:"UkĹad przĂłd (neon)", price:25000, cat:"Neony"},
-  {title:"Full pakiet neonĂłw", price:100000, cat:"Neony"},
-  {title:"Kolor neonĂłw", price:25000, cat:"Neony"},
+
+  {title:"Xenony", price:20000, cat:"Światła"},
+
+  {title:"Układ lewa strona (neon)", price:25000, cat:"Neony"},
+  {title:"Układ prawa strona (neon)", price:25000, cat:"Neony"},
+  {title:"Układ tył (neon)", price:25000, cat:"Neony"},
+  {title:"Układ przód (neon)", price:25000, cat:"Neony"},
+  {title:"Full pakiet neonów", price:100000, cat:"Neony"},
+  {title:"Kolor neonów", price:25000, cat:"Neony"},
+
   {title:"Zmiana felgi", price:15000, cat:"Opony"},
   {title:"Zmiana koloru felgi", price:15000, cat:"Opony"},
-  {title:"Zmiana dymy spod opon", price:20000, cat:"Opony"},
+  {title:"Zmiana dymu spod opon", price:20000, cat:"Opony"},
   {title:"Opony niestandardowe (napisy)", price:20000, cat:"Opony"},
+
   {title:"Zmiana koloru szyb", price:20000, cat:"Szyby"},
+
   {title:"Klapa", price:25000, cat:"Karoseria"},
   {title:"Progi", price:25000, cat:"Karoseria"},
   {title:"Wydech", price:25000, cat:"Karoseria"},
   {title:"Front", price:25000, cat:"Karoseria"},
   {title:"Maska", price:25000, cat:"Karoseria"},
-  {title:"BĹotniki", price:25000, cat:"Karoseria"},
+  {title:"Błotniki", price:25000, cat:"Karoseria"},
   {title:"Dach", price:25000, cat:"Karoseria"},
   {title:"Nadwozie", price:25000, cat:"Karoseria"},
-  {title:"WnÄtrze", price:25000, cat:"Karoseria"},
+  {title:"Wnętrze", price:25000, cat:"Karoseria"},
   {title:"Naklejki", price:25000, cat:"Karoseria"},
   {title:"Zderzaki", price:25000, cat:"Karoseria"},
-  {title:"Extrasy / KaĹźda czÄĹÄ", price:25000, cat:"Karoseria"},
+  {title:"Extrasy / Każda część", price:25000, cat:"Karoseria"},
+
   {title:"Zmiana klaksonu", price:15000, cat:"Inne"},
   {title:"Pneumatyka", price:100000, cat:"Inne"},
   {title:"Zmiana koloru tablic", price:20000, cat:"Inne"},
   {title:"Zmiana ramki tablicy", price:25000, cat:"Inne"}
+];
 
 const CATS = ["Wszystkie", ...Array.from(new Set(SERVICES.map(s=>s.cat)))];
 
